@@ -1,4 +1,3 @@
 package com.example.icebreaker_android_f22
 
-class Question {
-}
+data class Question(val text: String = "")

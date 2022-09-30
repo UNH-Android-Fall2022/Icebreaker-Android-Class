@@ -27,8 +27,10 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnSubmit.setOnClickListener {
-
             Log.d(TAG,"Button Submit was pressed")
+            val firstName = binding.txtFirstName
+            Log.d(TAG, "First name is ${firstName.text}")
+            firstName.setText("")
         }
     }
 

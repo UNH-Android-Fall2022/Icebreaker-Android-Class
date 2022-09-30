@@ -1,10 +1,10 @@
-# Copy this text to your .gitignore file to your android project prior to your initial commit. 
-
 # Built application files
 *.apk
 *.aar
 *.ap_
 *.aab
+
+# Database link file
 google-services.json
 
 # Files for the ART/Dalvik VM
